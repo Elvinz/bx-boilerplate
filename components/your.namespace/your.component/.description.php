@@ -7,10 +7,10 @@ $arComponentDescription = array(
 	"CACHE_PATH" => "Y", // button for clear cache
 	"SORT" => 10,
 	"PATH" => array(
-		"ID" => "my.components", //main group name
+		"ID" => "your.components", //main group name
 		"NAME" => GetMessage("BOILERPLATE_COMPONENT_MAIN_GROUP_NAME"), //main group name
 		"CHILD" => array(
-			"ID" => "my.subgroup.components", //subgroup ID
+			"ID" => "your.subgroup.components", //subgroup ID
 			"NAME" => GetMessage("BOILERPLATE_COMPONENT_SUBGROUP_NAME"), //subgroup name
 			"SORT" => 10
 		),

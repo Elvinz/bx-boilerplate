@@ -3,7 +3,7 @@
 use \Bitrix\Main;
 use \Bitrix\Main\Localization\Loc as Loc;
 
-class BoilerPlateComponent extends CBitrixComponent
+class YourComponentName extends CBitrixComponent
 {
     /**
      * cache keys in arResult
