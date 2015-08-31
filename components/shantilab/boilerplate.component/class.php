@@ -83,8 +83,8 @@ class BoilerPlateComponent extends CBitrixComponent
      */
     protected function checkModules()
     {
-        if (!Main\Loader::includeModule('iblock'))
-            throw new Main\LoaderException(Loc::getMessage('STANDARD_ELEMENTS_LIST_CLASS_IBLOCK_MODULE_NOT_INSTALLED'));
+        /*if (!Main\Loader::includeModule('iblock'))
+            throw new Main\LoaderException(Loc::getMessage('STANDARD_ELEMENTS_LIST_CLASS_IBLOCK_MODULE_NOT_INSTALLED'));*/
     }
 
     /**
