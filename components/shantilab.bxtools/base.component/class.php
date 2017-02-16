@@ -34,7 +34,7 @@ class BaseComponent extends \CBitrixComponent
 
     /**
      * prepare input params
-     * @param array $arParams
+     * @param array $params
      * @return array
      */
     public function onPrepareComponentParams($params)
